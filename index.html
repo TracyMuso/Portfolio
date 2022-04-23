@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Responsive Web Design Projects - Build a Personal Portfolio Webpage</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <link rel = "stylesheet" href ="style.css">
-<header 
-<nav id ="navbar">
+</head>
+<header
+    <nav id="navbar">
+    <div class="navbar"></div>
 <a href ="#welcome">Welcome</a>
 <a href = "#projects">Projects</a>
 <a href = "#contact">Contact</a>
@@ -18,19 +21,30 @@
 
 <body>
    <div>
-        <section id ="profile-link">
+        <section id ="welcome">
         <h1>Welcome to my Portfolio!</h1><br>
         <p>My name is John. I am a full stack developer. I have years of experience and already have some products on display. Click here to be directed to my Github</p>
         <br><br>
     </section>
     </div>
 
-   <div> <section class="project-tile">
-        <h3>PROJECTS</h3>
+   <section id="projects">
+        <h2>Completed Project</h2>
         <p>Here is one of my latest projects</p>
-
+        <div id="projects-content">
+            <a href="https://https://github.com/johnydev/Week-1/" alt="page preview">Summation of numbers</a>
+        </div>
     </section>
-</div>
+    <section id="Contact">
+        <h2>Get in touch with me</h2>
+        <p>Thinking of a responsive webpage?</p>
+        <div id="contacts-content">
+        <div id="email"><a href="mailto:john@gmail.com" target="_blank">Send a mail</a></div>
+        </div>
+    </section>
+    <section id="about">
+        <div id="github"><a href="https://https://github.com/johnydev" target="_blank" id="profile-link">GitHub</a></div>
+    </section>
     
 </body>
 </html>
